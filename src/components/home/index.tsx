@@ -1,0 +1,9 @@
+export { default as HomeSectionComponent } from "./HomeSectionComponent";
+export { default as AboutSectionComponent } from "./AboutSectionComponent";
+export { default as SkillSectionComponent } from "./SkillSectionComponent";
+export { default as EducationSectionComponent } from "./EducationSectionComponent";
+export { default as ExperienceSectionComponent } from "./ExperienceSectionComponent";
+export { default as PortfolioSectionComponent } from "./PortfolioSectionComponent";
+export { default as GetInTouchComponent } from "./GetInTouchComponent";
+export { default as ArticleSectionComponent } from "./ArticleSectionComponent";
+export { default as ContactSectionComponent } from "./ContactSectionComponent";
