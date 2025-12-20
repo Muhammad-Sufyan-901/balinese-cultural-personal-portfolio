@@ -76,11 +76,18 @@ export default function HomeSectionComponent(): React.JSX.Element {
           className="flex justify-center items-center gap-x-4"
         >
           <Button
+            asChild
             variant="default"
             size="icon-lg"
             className="w-fit px-7 py-5 rounded-sm"
           >
-            Download CV <Download />
+            <Box
+              as="a"
+              href="/pdf/Muhammad Sufyan CV.pdf"
+              download
+            >
+              Download CV <Download />
+            </Box>
           </Button>
           <Button
             asChild
