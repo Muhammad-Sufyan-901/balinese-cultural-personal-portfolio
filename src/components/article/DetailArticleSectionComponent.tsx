@@ -29,6 +29,7 @@ import {
 } from "@/constants";
 import { cn, fadeInTransition, staggeredContainer, truncateList } from "@/lib";
 import { getArticleBySlug, getOtherArticlesBySlug } from "@/services";
+import { NotFoundPage } from "@/pages";
 import type { SocialMedia } from "@/types";
 
 type DetailArticleSectionComponentProps = {
@@ -43,12 +44,10 @@ export default function DetailArticleSectionComponent({
 
   if (!article) {
     return (
-      <Box
-        as="main"
-        className="min-h-screen flex justify-center items-center"
-      >
-        <Heading>Article not found</Heading>
-      </Box>
+      <NotFoundPage
+        title="404 - Artikel Tidak Ditemukan"
+        description="Artikel yang anda tuju tidak ditemukan, silahkan kembali ke halaman beranda melalui tombol dibawah"
+      />
     );
   }
 
