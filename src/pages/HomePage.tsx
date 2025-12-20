@@ -11,11 +11,13 @@ import {
   ArticleSectionComponent,
   ContactSectionComponent,
 } from "@/components/home";
+import { ScrollToTopButton } from "@/components/common/ScrollToTopButton";
 
 export default function HomePage(): React.JSX.Element {
   return (
     <Box
       as="main"
+      id="main-container"
       className="min-h-screen"
     >
       {/* ========== HOME SECTION ========== */}
@@ -44,6 +46,9 @@ export default function HomePage(): React.JSX.Element {
 
       {/* ========== CONTACT SECTION ========== */}
       <ContactSectionComponent />
+
+      {/* ========== SCROLL TO TOP ========== */}
+      <ScrollToTopButton />
     </Box>
   );
 }

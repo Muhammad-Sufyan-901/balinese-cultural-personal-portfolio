@@ -69,7 +69,7 @@ export default function DetailArticleSectionComponent({
   return (
     <Container
       as="section"
-      id="blog"
+      id="artikel"
       maxWidth="xl"
       className="max-w-7xl h-full mx-auto py-24 px-12 pt-30"
     >
