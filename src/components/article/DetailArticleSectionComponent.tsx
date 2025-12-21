@@ -278,7 +278,7 @@ export default function DetailArticleSectionComponent({
                 {shareToSocialMediaList.map(
                   ({ SocialMediaIcon, link }, index): React.ReactNode => (
                     <Link
-                      href={link}
+                      href={`${link}${slug}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       key={`share-to-social-media-${index}`}
