@@ -12,6 +12,7 @@ import {
   ContactSectionComponent,
 } from "@/components/home";
 import { ScrollToTopButton } from "@/components/common/ScrollToTopButton";
+import { PageLayout } from "@/layouts";
 
 export default function HomePage(): React.JSX.Element {
   return (
@@ -23,29 +24,31 @@ export default function HomePage(): React.JSX.Element {
       {/* ========== HOME SECTION ========== */}
       <HomeSectionComponent />
 
-      {/* ========== ABOUT SECTION ========== */}
-      <AboutSectionComponent />
+      <PageLayout>
+        {/* ========== ABOUT SECTION ========== */}
+        <AboutSectionComponent />
 
-      {/* ========== SKILL SECTION ========== */}
-      <SkillSectionComponent />
+        {/* ========== SKILL SECTION ========== */}
+        <SkillSectionComponent />
 
-      {/* ========== EDUCATION SECTION ========== */}
-      <EducationSectionComponent />
+        {/* ========== EDUCATION SECTION ========== */}
+        <EducationSectionComponent />
 
-      {/* ========== EDUCATION SECTION ========== */}
-      <ExperienceSectionComponent />
+        {/* ========== EDUCATION SECTION ========== */}
+        <ExperienceSectionComponent />
 
-      {/* ========== PORTFOLIO SECTION ========== */}
-      <PortfolioSectionComponent />
+        {/* ========== PORTFOLIO SECTION ========== */}
+        <PortfolioSectionComponent />
 
-      {/* ========== GET IN TOUCH SECTION ========== */}
-      <GetInTouchComponent />
+        {/* ========== GET IN TOUCH SECTION ========== */}
+        <GetInTouchComponent />
 
-      {/* ========== ARTICLE SECTION ========== */}
-      <ArticleSectionComponent />
+        {/* ========== ARTICLE SECTION ========== */}
+        <ArticleSectionComponent />
 
-      {/* ========== CONTACT SECTION ========== */}
-      <ContactSectionComponent />
+        {/* ========== CONTACT SECTION ========== */}
+        <ContactSectionComponent />
+      </PageLayout>
 
       {/* ========== SCROLL TO TOP ========== */}
       <ScrollToTopButton />
