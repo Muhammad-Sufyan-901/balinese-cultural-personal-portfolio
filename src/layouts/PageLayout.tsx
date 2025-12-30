@@ -33,12 +33,12 @@ export default function PageLayout({
       viewport={{ once: true }}
       whileInView="show"
       initial="hidden"
-      className="relative w-full h-full hidden lg:block"
+      className="relative w-full h-full"
     >
       {/* ========== SOCIAL MEDIA ========== */}
       <Box
         className={cn(
-          "fixed top-1/2 translate-y-[-50%] flex flex-col gap-4 transition-all duration-600 z-100",
+          "fixed top-1/2 translate-y-[-50%] flex-col gap-4 transition-all duration-600 z-100 hidden lg:flex",
           showElements ? "left-4" : "-left-full"
         )}
       >
@@ -82,7 +82,7 @@ export default function PageLayout({
       {/* ========== NAVIGATION DOTS ========== */}
       <Box
         className={cn(
-          "fixed top-1/2 translate-y-[-50%] flex flex-col gap-4 transition-all duration-600",
+          "fixed top-1/2 translate-y-[-50%] flex-col gap-4 transition-all duration-600 hidden lg:flex",
           showElements ? "right-4" : "-right-full"
         )}
       >
