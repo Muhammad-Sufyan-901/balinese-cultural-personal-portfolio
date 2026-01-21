@@ -146,8 +146,7 @@ export default function AboutSectionComponent(): React.JSX.Element {
               className="text-primary pl-2 xl:pl-0"
             >
               {region}
-            </Box>{" "}
-            🇮🇩
+            </Box>
           </Heading>
 
           {/* ========== ABOUT SECTION PROFILE DESCRIPTION DESCRIPTION ========== */}
