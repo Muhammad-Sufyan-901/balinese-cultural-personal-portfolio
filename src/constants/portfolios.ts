@@ -3,7 +3,36 @@ import type { Portfolio } from "@/types";
 
 export const portfolioList: Portfolio[] = [
   {
+    title: "Perancangan Sistem Absensi Petabyte",
+    type: "Case Based",
+    imageThumbnail: images.projects.project19,
+    description:
+      "Sistem Absensi Berbasis Web adalah sistem informasi yang dikembangkan untuk mencatat kehadiran karyawan secara digital dan real-time. Sistem ini menggantikan metode absensi manual sehingga data kehadiran lebih akurat, mudah dikelola, serta mendukung proses administrasi sumber daya manusia secara efisien. Tujuan dari sistem ini bertujuan untuk meningkatkan akurasi dan efisiensi pencatatan absensi karyawan, serta mempermudah pengelolaan dan pelaporan data kehadiran.",
+    livePreviewURL: null,
+    repositoryURL: null,
+    techStack: [
+      { tech: "Docs", logo: icons.docs },
+      { tech: "Draw.io", logo: icons.drawio },
+      { tech: "Figma", logo: icons.figma },
+    ],
+  },
+  {
+    title: "Perancangan Sistem Penjualan Minyak Kutus Kutus",
+    type: "Case Based",
+    imageThumbnail: images.projects.project18,
+    description:
+      "Sistem Penjualan Minyak Urut Kutus Kutus merupakan sistem informasi berbasis web yang dirancang untuk mendukung proses penjualan produk secara online. Sistem ini memungkinkan pelanggan melihat informasi produk, melakukan pemesanan, pembayaran, serta memantau status pesanan. Di sisi lain, admin dapat mengelola data produk, pelanggan, pesanan, dan laporan transaksi secara terintegrasi sehingga proses penjualan menjadi lebih efektif, akurat, dan terstruktur. Tujuan dari sistem ini dibuat untuk mempermudah proses penjualan Minyak Urut Kutus Kutus secara online, meningkatkan efisiensi transaksi, serta membantu pengelolaan data penjualan secara terpusat.",
+    livePreviewURL: null,
+    repositoryURL: null,
+    techStack: [
+      { tech: "Docs", logo: icons.docs },
+      { tech: "Draw.io", logo: icons.drawio },
+      { tech: "Figma", logo: icons.figma },
+    ],
+  },
+  {
     title: "KNA Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project17,
     description:
       "KNA (Keanu Abimanyu Construction) Landing Page adalah sebuah website yang saya buat menggunakan HTML, CSS, JavaScript, dan Tailwind CSS. Website ini menampilkan informasi mengenai perusahaan konstruksi yang bergerak di bidang pembangunan, renovasi, dan perawatan bangunan. Selain itu, website ini juga dilengkapi dengan fitur portofolio, testimoni, dan konsultasi untuk memudahkan pengunjung dalam mengetahui kualitas dan keunggulan perusahaan.",
@@ -18,6 +47,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "KHASS E-Ticketing",
+    type: "Project Based",
     imageThumbnail: images.projects.project16,
     description:
       "KHASS adalah website e-ticketing untuk penjualan tiket teater dan promosi pertunjukan teater yang dikembangkan menggunakan Next JS, Tailwind CSS, dan Express JS bersama tim. Website ini memungkinkan pengguna untuk menemukan dan membeli tiket berbagai pertunjukan teater, serta menyediakan informasi lengkap mengenai jadwal, harga, dan ketersediaan tiket. KHASS bertujuan untuk menghubungkan penonton dengan pertunjukan teater melalui platform online yang mudah digunakan.",
@@ -31,6 +61,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Portfolio Pribadi",
+    type: "Project Based",
     imageThumbnail: images.projects.project1,
     description:
       "Ini adalah proyek personal branding yang saya buat menggunakan Next JS, Tailwind CSS, dan Framer Motion. Website ini menampilkan informasi mengenai skill, pencapaian, serta kepribadian saya. Terdapat tujuh section utama yaitu Home, About, Experiences, Services, Portfolio, Articles, dan Contact. Website ini dirancang agar responsif, interaktif, dan menarik untuk membangun koneksi dengan klien, recruiter, maupun kolaborator.",
@@ -44,6 +75,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Phantom Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project2,
     description:
       "Phantom adalah website landing page yang dibuat menggunakan HTML, CSS, dan JavaScript. Website ini menampilkan informasi mengenai produk smartphone dengan brand Phantom, termasuk fitur, spesifikasi, harga, serta ulasan pelanggan. Website ini bertujuan untuk menarik minat calon pembeli dan memberikan informasi produk secara jelas.",
@@ -57,6 +89,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Petabyte Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project3,
     description:
       "Petabyte Landing Page adalah website yang dibuat menggunakan HTML, CSS, dan Bootstrap. Website ini menampilkan informasi mengenai software house di bidang edukasi yang menyediakan layanan pembuatan aplikasi, website, dan game edukasi. Website ini juga dilengkapi dengan fitur portofolio, testimoni, dan konsultasi.",
@@ -72,6 +105,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "HooBank Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project4,
     description:
       "HooBank adalah website landing page yang dibuat menggunakan React JS, Tailwind CSS, dan Vite. Website ini menampilkan layanan digital finansial seperti pembayaran, transfer, dan investasi online. Website ini menonjolkan kemudahan, keamanan, dan kenyamanan dalam mengelola keuangan secara digital.",
@@ -86,6 +120,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "OurTube",
+    type: "Project Based",
     imageThumbnail: images.projects.project5,
     description:
       "OurTube adalah website yang dibuat menggunakan React JS dan Material UI sebagai proyek pembelajaran. Website ini merupakan tiruan YouTube yang memungkinkan pengguna untuk mencari dan menonton video dari berbagai kategori. Proyek ini bertujuan untuk menunjukkan kemampuan saya dalam membangun aplikasi web yang kompleks.",
@@ -98,6 +133,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Twitter Clone",
+    type: "Project Based",
     imageThumbnail: images.projects.project6,
     description:
       "Twitter Clone adalah website yang dibuat menggunakan Next JS, TypeScript, dan Tailwind CSS untuk keperluan pembelajaran. Website ini memungkinkan pengguna untuk membuat, menyukai, dan me-retweet postingan, serta dilengkapi dengan fitur autentikasi.",
@@ -111,6 +147,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "YoDoo",
+    type: "Project Based",
     imageThumbnail: images.projects.project7,
     description:
       "YoDoo adalah aplikasi website to-do list sederhana yang dibuat menggunakan React JS. Website ini memungkinkan pengguna untuk menambah, mengedit, menghapus, dan menandai tugas yang telah selesai.",
@@ -120,6 +157,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Crappo Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project8,
     description:
       "Crappo adalah website landing page tentang investasi cryptocurrency yang dibuat menggunakan React JS dan Tailwind CSS. Website ini menampilkan informasi berbagai aset crypto serta bertujuan memberikan gambaran platform investasi yang modern dan informatif.",
@@ -132,6 +170,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Geritch Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project9,
     description:
       "Geritch adalah website landing page restoran mewah yang dibuat menggunakan React JS. Website ini menampilkan menu, galeri, dan ulasan pelanggan untuk menarik minat pengunjung.",
@@ -141,6 +180,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "XPense Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project10,
     description:
       "XPense adalah website landing page yang dibuat menggunakan React JS dan Tailwind CSS. Website ini menampilkan layanan cloud server yang memungkinkan pengguna memilih, menyesuaikan, dan mengelola server sesuai kebutuhan dan anggaran mereka. Website ini juga menampilkan fitur billing, support, dan analytics.",
@@ -153,6 +193,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Elecar Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project11,
     description:
       "Elecar adalah website landing page yang dibuat menggunakan HTML, CSS, dan JavaScript. Website ini menampilkan informasi penjualan mobil listrik yang ramah lingkungan, efisien, dan modern, lengkap dengan fitur testimonial, FAQ, dan kontak.",
@@ -166,6 +207,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Coffee Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project12,
     description:
       "Coffee adalah website landing page kafe yang dibuat menggunakan HTML, CSS, dan JavaScript. Website ini menampilkan menu, lokasi, jam operasional, serta bertujuan menarik pelanggan dengan tampilan yang sederhana dan menarik.",
@@ -179,6 +221,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Holux Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project13,
     description:
       "Holux adalah website landing page properti yang dibuat menggunakan HTML, CSS, dan JavaScript. Website ini memungkinkan pengguna melihat, memfilter, dan menghubungi agen terkait properti seperti rumah, apartemen, dan tanah.",
@@ -192,6 +235,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Shop Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project14,
     description:
       "Shop adalah website landing page toko fashion yang dibuat menggunakan HTML, CSS, dan JavaScript. Website ini menampilkan produk pakaian, aksesoris, dan sepatu, serta memberikan pengalaman belanja yang menarik.",
@@ -205,6 +249,7 @@ export const portfolioList: Portfolio[] = [
   },
   {
     title: "Berotot Landing Page",
+    type: "Project Based",
     imageThumbnail: images.projects.project15,
     description:
       "Berotot adalah website landing page gym yang dibuat menggunakan HTML, CSS, dan JavaScript. Website ini menampilkan program kebugaran, fasilitas gym, jadwal latihan, serta paket keanggotaan untuk menarik dan memotivasi calon member.",

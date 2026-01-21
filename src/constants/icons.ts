@@ -5,6 +5,7 @@ import codeigniterIcon from "@/assets/icons/codeigniter.svg";
 import cssIcon from "@/assets/icons/css.svg";
 import dartIcon from "@/assets/icons/dart.svg";
 import docsIcon from "@/assets/icons/docs.svg";
+import drawioIcon from "@/assets/icons/drawio.svg";
 import expressIcon from "@/assets/icons/express.svg";
 import figmaIcon from "@/assets/icons/figma.svg";
 import firebaseIcon from "@/assets/icons/firebase.svg";
@@ -59,6 +60,7 @@ export const icons = {
   materialUi: materialUiIcon,
   figma: figmaIcon,
   framerMotion: framerMotionIcon,
+  drawio: drawioIcon,
 
   // Languages
   javascript: javascriptIcon,

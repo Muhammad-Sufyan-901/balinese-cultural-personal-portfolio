@@ -25,6 +25,7 @@ export default function PortfolioCard({
   livePreviewURL,
   repositoryURL,
   techStack,
+  type,
 }: PortfolioCardProps): React.JSX.Element {
   const [isOpen, setIsOpen] = React.useState(false);
   const [imageLoaded, setImageLoaded] = React.useState(false);
@@ -33,8 +34,8 @@ export default function PortfolioCard({
 
   return (
     <React.Fragment>
-      <Card className="bg-card transition-all duration-300 shadow-lg hover:shadow-2xl rounded-sm py-0 border-t-3 border-transparent border-t-primary group">
-        <CardContent className="flex flex-col gap-4 px-3 py-4">
+      <Card className="bg-card transition-all duration-300 shadow-lg hover:shadow-2xl rounded-sm py-0 border-t-3 border-transparent border-t-primary group h-full flex flex-col">
+        <CardContent className="flex flex-col gap-4 px-3 py-4 flex-1">
           <Box className="rounded-md overflow-hidden border-[1.5px] border-gray-400 relative">
             {repositoryURL && (
               <Box className="h-full w-full absolute -top-full z-50 left-0 bg-white/10 backdrop-blur-[1.25rem] transition-all duration-300 group-hover:top-0">
@@ -65,6 +66,10 @@ export default function PortfolioCard({
               onLoad={() => setImageLoaded(true)}
             />
           </Box>
+
+          <Badge variant="default" className="w-fit">
+            {type}
+          </Badge>
 
           <Heading
             level={4}
@@ -162,6 +167,7 @@ export default function PortfolioCard({
         livePreviewURL={livePreviewURL}
         repositoryURL={repositoryURL}
         techStack={techStack}
+        type={type}
       />
     </React.Fragment>
   );

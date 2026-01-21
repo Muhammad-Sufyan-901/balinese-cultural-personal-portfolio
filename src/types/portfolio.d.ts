@@ -7,4 +7,5 @@ export interface Portfolio {
   livePreviewURL: string | null;
   repositoryURL: string | null;
   techStack: Technology[];
+  type: "Case Based" | "Project Based";
 }

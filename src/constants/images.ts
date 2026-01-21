@@ -36,6 +36,8 @@ export const images = {
     project15: `${IMAGE_BASE_PATH}/project-15.webp`,
     project16: `${IMAGE_BASE_PATH}/project-16.webp`,
     project17: `${IMAGE_BASE_PATH}/project-17.webp`,
+    project18: `${IMAGE_BASE_PATH}/project-18.webp`,
+    project19: `${IMAGE_BASE_PATH}/project-19.webp`, 
   },
 } as const;
 
